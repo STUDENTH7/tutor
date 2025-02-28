@@ -1,0 +1,135 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body  {
+  font-family: Arial;
+  padding: 10px;
+  background: #058405;
+}
+
+
+
+/* Header/Blog Title */
+.header {
+
+  text-align: center;
+  background: #058405;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+
+.li.search-container {
+  float: right;
+   margin-top: 20px;
+}
+
+
+.li.search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 20px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFC954;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #FFFCC24;
+}
+
+.active, li a:hover {
+  background-color:  #E07E0D;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+#IMAGE{
+	width:97%;
+	height:100px;
+	background-size: contain;
+	background-image: url("../Images/STOCKIMAGE.PNG");
+	margin-top:20px;
+	margin-left:20px;
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size:100% 100%
+	}	*/
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: silver;
+  margin-top: 20px;
+  padding:20px;
+}
+
+.link:hover { transition-duration: 0.1s;
+  cursor: pointer;
+  color: red; 
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  text-decoration: underline;
+}
+
+.alert {
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}

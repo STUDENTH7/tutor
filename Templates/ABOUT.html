@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<link rel= "stylesheet" type="text/css" href="{{url_for('static',filename='css/STYLE.css')}}"/>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="{{url_for('static',filename='Images/ZOO LOGO MAIN.png')}}">
+</div>
+
+ <ul>
+  <li><a  href="/">Home</a></li>
+  <li><a href="/ZOO">OUR ZOO</a></li>
+  <li><a href="/HOTEL">ON-SITE HOTEL</a></li>
+  <li><a href="/TICKETS">TICKETS</a></li>
+   <li><a href="/MEMBERS">MEMBERSHIP</a></li>
+  <li><a class="active"  href="/ABOUT">ABOUT US</a></li>
+  <li><a href="/LOGIN">LOGIN/SIGNUP</a></li>
+  <div class="search-container">
+  <form action="/action_page.php">
+  <li style = "margin-top:15px; margin-left: 100px">
+      <input type="text" placeholder="Search.." name="search">
+     <button type="submit">search</button>
+  </form>
+  </div>
+</ul>
+
+<div class="card" style="text-align: center; height:800px;" >
+ <br><br>
+
+<h2> About Us!</h2>
+	<br><br>
+<p>The RZA provides educational visits, tons of exciting exhibitions and more.</p>
+ <P>We make sure that all ages can enjoy a day or two with our hotel service and our zoos</p>
+<br><br>
+
+<br><br>
+<p style="border-bottom-style: solid;"> <p>
+<br><br>
+
+<h2> Contact Us!</h2>
+	<br><br>
+<p> Email: TheRZAZOO@email.com<p>
+<p>	Phone: 02487573485<p>
+<p> Location: Bridon S1675GD <p>
+
+
+</div>
+
+<div class="footer">
+
+<br><br>
+<h3> Give Us Your Feedback!</h3>
+<br><br>
+<form class="form-inline" >
+  <label for="email">Email:</label>
+  <input type="email" id="email" placeholder="Enter email" name="email">
+  <label for="feedback">feedback:</label>
+  <input type="textarea" id="Feedback" placeholder="Enter feedback here" name="Feedback">
+
+  <button type="submit">Submit</button>
+
+</form>
+<br><br>
+
+
+
+</div>
